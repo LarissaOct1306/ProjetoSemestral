@@ -1,0 +1,626 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:aliceblue;
+}
+.container{
+    width: 100%;
+    height: 3300px;
+}
+/*MENU*/
+.menu{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+.moth{
+    display: flex;
+    flex-direction: row;
+    
+}
+a{
+    text-decoration: none;
+}
+.pjo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border: 2px solid orange;
+    list-style-type: none;
+    margin-left: 50px;
+    color:rgb(203, 148, 255);
+    
+
+}
+.pjo:hover{
+    background-color: rgb(129, 81, 174);
+    color:aliceblue;
+}
+.divisao{
+    width: 100%;
+    height: 800px;
+    border:2px solid rgb(48, 25, 55);
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-image: url(./mots.jpg);
+    
+}
+.divisao1{
+    width: 100%;
+    height: 800px;
+    background-image:url(./menu.jpg);
+    background-repeat: no-repeat;
+ 
+}
+
+.logo{
+    height: 190px;
+}
+h1{
+    color: rgb(212, 250, 255);
+    font-family:cursive;
+    margin-top: 250px;
+}
+.artigo{
+    display: flex;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width: 380px;
+    height:390px ;
+    background-color: black;
+
+}
+.artigo:hover{
+   background-image:url(./chb.jpg);
+}
+.artigo1{
+    display: flex;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width: 380px;
+    height:390px ;
+    background-color: black;
+
+}
+.artigo1:hover{
+   background-image:url(./elfhame.jpg);
+}
+.artigo2{
+    display: flex;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width: 380px;
+    height:390px ;
+    background-color: black;
+
+}
+.artigo2:hover{
+   background-image:url(./velaris.jpg);
+}
+.artigo3{
+    display: flex;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width: 380px;
+    height:390px ;
+    background-color: black;
+
+}
+.artigo3:hover{
+   background-image:url(./shadowhunters.jpg);
+}
+.artigo4{
+    display: flex;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width: 380px;
+    height:390px ;
+    background-color: black;
+
+}
+.artigo4:hover{
+   background-image:url(./edward.jpg);
+}
+.artigo5{
+    display: flex;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width: 380px;
+    height:390px ;
+    background-color: black;
+
+}
+.artigo5:hover{
+   background-image:url(./HP.jpg);
+}
+.artigo6{
+    display: flex;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width: 380px;
+    height:390px ;
+    background-color: black;
+
+}
+.artigo6:hover{
+   background-image:url(./hyyh.jpg);
+}
+.artigo7{
+    display: flex;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width: 380px;
+    height:390px ;
+    background-color: black;
+
+}
+.artigo7:hover{
+   background-image:url(./red\ queen.jpg);
+}
+h2{
+    color: rgb(245, 243, 247);
+    background-color:  black;
+    margin-left: 80px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+  
+    
+}
+
+
+
+.bonus{
+    display: flex;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width: 380px;
+    height:390px ;
+    background-color: black;
+}
+.bonus:hover{
+    background-color: rgb(114, 112, 115);
+
+}
+.mais{
+    width: 230px;
+    height: 200px;
+    margin-bottom: 130px;
+    margin-left: 50px;
+}
+.h3{
+    color:aliceblue;
+    margin-top: 150px;
+    margin-left:-150px;
+}
+
+.Nam{
+    width: 230px;
+    height: 280px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+.rpwp{
+    color:aliceblue;
+    margin-top: 250px;
+    margin-left:-180px;  
+}
+
+
+.ttpd{
+    width: 230px;
+    height: 230px;
+    margin-bottom: 130px;
+    margin-left: 50px;
+    
+}
+.mots{
+    color: rgb(212, 250, 255);
+    font-family:cursive;
+    margin-top: 50px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+
+input{
+    background-color: rgb(50, 27, 67);
+    color:aliceblue;
+    padding: 10px;
+    width: 900px;}
+    .hyyh{
+    
+        width: 100%;
+        height: 770px;
+        background-image:url(./mots.jpg);
+        border: 2px solid  rgb(48, 25, 55);
+    }
+.rep{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+} 
+.rep:hover{
+    color:rgb(220, 176, 255);
+}
+button{
+    background-color:blueviolet; 
+    color: rgb(255, 250, 250); 
+    display:flex;
+    justify-content: center;
+    width: 200px;
+    margin-top: 50px;
+}
+button:hover{
+    background-color: rgb(227, 170, 255);
+    color:black;
+}
+.rodape{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+@media (max-width: 576px){
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: black;
+        color:aliceblue;
+      
+    }
+    .container{
+        width:380px;
+        height: 1900px;
+    }
+    /*MENU*/
+    .menu{
+        width: 380px;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        
+    }
+    a{
+        text-decoration: none;
+    }
+    .moth{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .pjo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        border: 2px solid orange;
+        list-style-type: none;
+        margin-left: 20px;
+        color:rgb(203, 148, 255);
+        font-size: 10px;
+        
+    
+    }
+    .pjo:hover{
+        background-color: rgb(129, 81, 174);
+        color:aliceblue;
+    }
+    .divisao{
+        width: 380px;
+        height: 230px;
+        border:2px solid rgb(48, 25, 55);
+    }
+    footer{
+        width: 380px;
+        height: 200px;
+        background-image: url(./mots.jpg);
+    }
+    .divisao1{
+        width: 380px;
+        height: 500px;
+        background-image:url(./menu.jpg);
+        background-repeat: no-repeat;
+     
+     
+    }
+    
+    .logo{
+        height: 100px;
+    }
+    h1{
+        color: rgb(212, 250, 255);
+        font-family:cursive;
+        margin-top: 150px;
+       font-size: 15px;
+    }
+    .artigo{
+        display: flex;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+        width: 100px;
+        height:100px ;
+        background-color: black;
+    
+    }
+    .artigo:hover{
+       background-image:url(./chb.jpg);
+    }
+    .artigo1{
+        display: flex;
+        color: black;
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+        width: 100px;
+        height:100px ;
+        background-color: black;
+    
+    }
+    .artigo1:hover{
+       background-image:url(./elfhame.jpg);
+    }
+    .artigo2{
+        display: flex;
+        color: black;
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+        width: 100px;
+        height:100px ;
+        background-color: black;
+    
+    }
+    .artigo2:hover{
+       background-image:url(./velaris.jpg);
+    }
+    .artigo3{
+        display: flex;
+        color: black;
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+        width: 100px;
+        height:100px ;
+        background-color: black;
+    
+    }
+    .artigo3:hover{
+       background-image:url(./shadowhunters.jpg);
+    }
+    .artigo4{
+        display: flex;
+        color: black;
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+        width: 100px;
+        height:100px ;
+        background-color: black;
+    
+    }
+    .artigo4:hover{
+       background-image:url(./edward.jpg);
+    }
+    .artigo5{
+        display: flex;
+        color: black;
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+        width: 100px;
+        height:100px ;
+        background-color: black;
+    
+    }
+    .artigo5:hover{
+       background-image:url(./HP.jpg);
+    }
+    .artigo6{
+        display: flex;
+        color: black;
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+        width: 100px;
+        height:100px ;
+        background-color: black;
+    
+    }
+    .artigo6:hover{
+       background-image:url(./hyyh.jpg);
+    }
+    .artigo7{
+        display: flex;
+        color: black;
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+        width: 100px;
+        height:100px ;
+        background-color: black;
+    
+    }
+    .artigo7:hover{
+       background-image:url(./red\ queen.jpg);
+    }
+    h2{
+        color: rgb(245, 243, 247);
+        background-color:  black;
+        margin-left: 80px;
+    }
+    
+    .list{
+        display: flex;
+        flex-direction: row;
+      
+        
+    }
+    
+    
+    
+    .bonus{
+        display: flex;
+        color: black;
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+        width: 100px;
+        height:100px ;
+        background-color: black;
+    }
+    .bonus:hover{
+        background-color: rgb(114, 112, 115);
+    
+    }
+    .mais{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    .h3{
+        color:aliceblue;
+        margin-top: 50px;
+        margin-left:-50px;
+        font-size: 10px;
+        
+    }
+    
+    .Nam{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 30px;
+        margin-left: 5px;
+    }
+    .rpwp{
+        color:aliceblue;
+        margin-top: 50px;
+        margin-left:-50px; 
+        font-size: 8px; 
+    }
+    
+    
+    .ttpd{
+        width: 230px;
+        height: 230px;
+        margin-bottom: 130px;
+        margin-left: 50px;
+        
+    }
+    .mots{
+        color: rgb(212, 250, 255);
+        font-family:cursive;
+        margin-top: 50px;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        
+        
+    }
+    
+    input{
+        background-color: rgb(50, 27, 67);
+        color:aliceblue;
+        width: 250px;
+    }
+        .hyyh{
+        
+            width: 380px;
+            height: 750px;
+            background-image:url(./mots.jpg);
+           
+        }
+    .rep{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    
+    } 
+    .rep:hover{
+        color:rgb(225, 188, 255);
+    }
+    button{
+        background-color:blueviolet; 
+        color: rgb(255, 250, 250); 
+        display:flex;
+        justify-content: center;
+        width: 200px;
+        margin-top: 50px;
+    }
+    button:hover{
+        background-color: rgb(227, 170, 255);
+        color:black;
+    }
+    .rodape{
+        width: 15px;
+        height: 15px;
+    }
+    
+}
